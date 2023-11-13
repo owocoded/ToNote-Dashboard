@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins';
+}
+.sidebar-links{
+  background-color: hsla(0, 0%, 100%, 1);
+  margin-right: 25px;
+  padding: 0px 20px;
+}
+.sidebar-links .links{
+  width: 100%;
+  border-bottom: 0px;
+}
+.sidebar-links .links .nav-link{
+  color: hsla(221, 13%, 46%, 1);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sidebar-links .links .dash{
+  padding: 10px;
+}
+.sidebar-links .links .sub{
+  padding: 10px;
+}
+.sidebar-links .links .sub .number{
+  color: hsla(214, 33%, 17%, 1);
+  background-color: hsla(220, 53%, 97%, 1);
+  margin-top: 10px;
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.sidebar-links .links .earn{
+  padding: 10px;
+}
+.sidebar-links .links .pay{
+  padding: 10px;
+}
+.sidebar-links .links .kit{
+  padding: 10px;
+}
+.sidebar-links .links .set{
+  padding: 10px;
+}
+.section-header{
+  background-color: hsla(0, 0%, 100%, 1);
+  margin: 0px 0px 20px 0px;
+}
+.section{
+  width: 100%;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.header .Affi{
+  background-color: hsla(216, 24%, 96%, 1);
+  color: hsla(0, 0%, 0%, 1);
+  padding: 5px 15px;
+  margin-top: 16px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.section-header{
+  width: 100%;
+}
+.section .section-header .h4{
+  color: hsla(220, 43%, 11%, 1);
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Poppin";
+  font-weight: 600
+}
+.section .section-header .h5{
+  color: hsla(217, 24%, 27%, 1);
+  font-size: 14px;
+  font-weight: 600
+}
+.section .section-header .header-icon{
+  color: hsla(221, 13%, 46%, 1);
+  text-align: center;
+  margin-top: 20px;
+}
+.section-body .overall .stat{
+  background-color: hsla(0, 0%, 100%, 1);
+  border: solid 1px hsla(217, 16%, 84%, 1);
+  padding: 0px 10px;
+  margin-right: 20px;
+}
+.section-body .plan .subscribe{
+  background-color: hsla(220, 100%, 35%, 1);
+  width: 100%;
+  padding: 0px 15px;
+  margin-right: 10px;
+}
+.section-body .plan .subscribe .num{
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.section-body .plan .subscribe p{
+  color: hsla(220, 54%, 87%, 1);
+}
+.section-body .plan .total{
+  background-color: hsla(220, 53%, 93%, 1);
+  width: 100%;
+  padding: 0px 15px;
+  margin-right: 10px;
+}
+.section-body .plan .total .numb{
+  color: hsla(0, 0%, 0%, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+.section-body .plan .total p{
+  color: hsla(0, 0%, 0%, 1);
+  font-size: 14px;
+  font-weight: 500;
+}
+.section-body .plan .paid{
+  background-color: hsla(0, 0%, 100%, 1);
+  width: 100%;
+  padding: 0px 15px;
+  margin-right: 10px;
+}
+.section-body .plan .paid .earn{
+  color: hsla(220, 43%, 11%, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+.section-body .plan .paid p{
+  color: hsla(221, 13%, 46%, 1);
+  font-size: 14px;
+  font-weight: 500;
+}
+.setting{
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 1);
+  border: 1px solid hsla(220, 17%, 93%, 1);
+}
+.setting h1{
+  margin: 10px;
+}
+.promotion{
+  background-color: hsla(220, 53%, 97%, 1);
+}
+.promotion .btn{
+  background-color: hsla(220, 100%, 35%, 1);
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.section-center{
+  background-color: hsla(220, 53%, 97%, 1);
+  padding: 20px;
+}
+.section-center .bank{
+  margin-right: 20px;
+}
+.section-center .details{
+  color: hsla(220, 43%, 11%, 1);
+  font-weight: 500;
+}
+.section-footer{
+  background-color: hsla(0, 0%, 100%, 1);
+  border: 1px solid hsla(220, 17%, 93%, 1);
+  padding: 20px;
+}
+.section-footer .stat{
+  background-color: hsla(0, 0%, 100%, 1);
+  border: solid 1px hsla(217, 16%, 84%, 1);
+  padding: 0px 5px;
+  margin-right: 10px;
+}
+.section-footer .acct{
+  color: hsla(217, 24%, 27%, 1);
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400
+}
+.section-footer .search{
+  width: 100%;
+  display: block;
+  background-image: url(images/search\ icon.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-color: hsla(0, 0%, 100%, 1);
+  border: solid 1px hsla(217, 16%, 84%, 1);
+  border: solid 1px hsla(217, 16%, 84%, 1);
+  padding: 9px 4px 9px 40px;
+}
+.section-footer .all{
+  background-color: hsla(0, 0%, 100%, 1);
+  border: solid 1px hsla(217, 16%, 84%, 1);
+  width: 100%;
+  padding: 9px 4px 9px 4px;
+  text-align: start;
+}
+.section-footer .head{
+  background-color: hsla(220, 53%, 97%, 1);
+  color: hsla(220, 100%, 35%, 1);
+  padding: 2px 10px;
+  text-align: center;
+}
+.section-footer .table thead{
+  color: hsla(215, 18%, 34%, 1);
+  background-color: hsla(210, 24%, 98%, 1);
+  font-size: 12px;
+  font-weight: 500;
+  border-top: 1px solid hsla(220, 17%, 93%, 1);
+  border-bottom: 1px solid hsla(220, 17%, 93%, 1);
+}
+.section-footer .table tbody tr{
+  color: hsla(215, 18%, 34%, 1);
+}
+.section-footer .pagination .page-link{
+  color: hsla(217, 23%, 27%, 1);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+.section-footer .pagination .previous .page-link{
+  font-weight: 600;
+  border: 1px solid hsla(216, 16%, 84%, 1);
+  border-radius: 5px;
+}
+.section-footer .pagination .next .page-link {
+  font-weight: 600;
+  border: 1px solid hsla(216, 16%, 84%, 1);
+  border-radius: 5px;
+}
